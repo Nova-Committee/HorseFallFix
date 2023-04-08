@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "committee.nova.horsefallfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAbstractHorse"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "horsefallfix.mixin-refmap.json",
+  "minVersion": "0.8"
+}
